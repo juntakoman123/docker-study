@@ -20,8 +20,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - wordpress-data:/var/www/html
+      - ./html:/var/www/html
 
 volumes:
   db-data:
-  wordpress-data:
